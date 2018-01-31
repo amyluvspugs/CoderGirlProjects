@@ -24,15 +24,15 @@ public class SandwichShop {
 	salesVeggies = keyboard.nextInt();
 
 	if (salesVeggies >= goalForVeggies)
-    {
+  	{
          out.println("Goal Achieved for veggie sandwiches.");
-    }
-    else
-    {
+    	}
+    	else
+    	{
          out.println("Goal was not reached for veggie sandwiches.");
-    }
+    	}
 
-    out.println('\n');
+    	out.println('\n');
 	out.println("The sales goal for burgers is " + goalForBurgers);
 	out.println("How many burgers were sold today?");
 
