@@ -1,0 +1,32 @@
+import static java.lang.System.out;
+import java.util.Scanner;
+
+public class multiplicationTable {
+
+    public static void printTable(int num) {
+        for (int counter = 0; counter <= num; counter++) {
+            for (int counter2 = 0; counter2 <= 9; counter2++) {
+                if (counter >= counter2) {
+                    out.println(counter + "*" + counter2 + "=" + counter * counter2);
+                }
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner keyboard = new Scanner(System.in);
+        int size;
+        out.println("MULTIPLICATION TABLES");
+
+        out.println("What size would you like the table to be? ");
+        size = keyboard.nextInt();
+
+        // checks to see if user can follow directions
+        while (size > 20) {
+            out.println("Enter a # equal or less than 20: ");
+            size = keyboard.nextInt();
+        }
+        printTable(size);
+
+    }
+}
