@@ -4,7 +4,7 @@ public class Temperatures {
 
     public static void main(String[] args) {
 
-        int[][] chart = {{68, 70, 76, 70, 68, 71, 75}, {76, 99, 99, 99, 99, 99, 99}, {99, 99, 99, 99, 99, 99, 99}, {99, 99, 99, 99, 99, 99, 99}};
+        int[][] chart = {{68, 70, 76, 70, 68, 71, 75}, {76, 76, 87, 84, 82, 75, 83}, {73, 72, 81, 78, 76, 73, 77}, {64, 65, 69, 68, 70, 74, 72}};
 
         String[] weekday = {"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"};
         int avg[] = new int[7];
